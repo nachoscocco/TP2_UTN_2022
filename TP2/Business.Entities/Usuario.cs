@@ -8,28 +8,45 @@ namespace Business.Entities
 {
     public class Usuario
     {
-        public Usuario()
-        {
-            State = States.New;
+        private string _nombreUsuario;
+        public string NombreUsuario {
+            get { return _nombreUsuario; }
+            set { _nombreUsuario = value; }
         }
 
-        private int _ID;
-        public int ID {
-            get { return _ID; }
-            set { _ID = value; }
+        private string _clave;
+        public string Clave
+        {
+            get { return _clave; }
+            set { _clave = value; }
         }
 
-        private States _State;
-        public States State {
-            get { return _State; }
-            set { _State = value; }
-        }
-        public enum States
+        private string _nombre;
+        public string Nombre
         {
-            Delted,
-            New,
-            Modified,
-            Unmodified
+            get { return _nombre; }
+            set { _nombre = value; }
+        }
+
+        private string _apellido;
+        public string Apellido
+        {
+            get { return _apellido; }
+            set { _apellido = value; }
+        }
+
+        private string _email;
+        public string Email
+        {
+            get { return _email; }
+            set { _email = value; }
+        }
+
+        private bool _habilitado;
+        public bool Habilitado
+        {
+            get { return _habilitado; }
+            set { _habilitado = value; }
         }
     }
 }
