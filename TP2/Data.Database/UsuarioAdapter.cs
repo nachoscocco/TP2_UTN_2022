@@ -7,7 +7,7 @@ using Business.Entities;
 
 namespace Data.Database
 {
-    class UsuarioAdapter : Adapter
+    public class UsuarioAdapter : Adapter
     {
         #region DatosEnMemoria
         // Esta región solo se usa en esta etapa donde los datos se mantienen en memoria.
@@ -21,15 +21,15 @@ namespace Data.Database
                 if (_Usuarios == null)
                 {
                     _Usuarios = new List<Business.Entities.Usuario>();
-                    Business.Entities.Usuario usr;
-                    usr = new Business.Entities.Usuario();
+                    Usuario usr;
+                    usr = new Usuario();
                     usr.ID = 1;
                     usr.State = Business.Entities.BusinessEntity.States.Unmodified;
                     usr.Nombre = "Casimiro";
                     usr.Apellido = "Cegado";
                     usr.NombreUsuario = "casicegado";
                     usr.Clave = "miro";
-                    usr.EMail = "casimirocegado@gmail.com";
+                    usr.Email = "casimirocegado@gmail.com";
                     usr.Habilitado = true;
                     _Usuarios.Add(usr);
 
@@ -40,7 +40,7 @@ namespace Data.Database
                     usr.Apellido = "Quito";
                     usr.NombreUsuario = "aequito";
                     usr.Clave = "carpintero";
-                    usr.EMail = "armandoquito@gmail.com";
+                    usr.Email = "armandoquito@gmail.com";
                     usr.Habilitado = true;
                     _Usuarios.Add(usr);
 
@@ -51,7 +51,7 @@ namespace Data.Database
                     usr.Apellido = "Brado";
                     usr.NombreUsuario = "alanbrado";
                     usr.Clave = "abrete sesamo";
-                    usr.EMail = "alanbrado@gmail.com";
+                    usr.Email = "alanbrado@gmail.com";
                     usr.Habilitado = true;
                     _Usuarios.Add(usr);
 

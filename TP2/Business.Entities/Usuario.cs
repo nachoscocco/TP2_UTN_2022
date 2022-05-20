@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Business.Entities.BusinessEntity;
 
 namespace Business.Entities
 {
     public class Usuario
     {
+        public int ID { get; set; }
+
         private string _nombreUsuario;
         public string NombreUsuario {
             get { return _nombreUsuario; }
@@ -48,5 +51,7 @@ namespace Business.Entities
             get { return _habilitado; }
             set { _habilitado = value; }
         }
+
+        public States State { get; set; }
     }
 }

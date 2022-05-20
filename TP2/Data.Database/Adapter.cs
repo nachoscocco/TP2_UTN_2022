@@ -19,9 +19,10 @@ namespace Data.Database
             throw new Exception("Metodo no implementado");
         }
 
-        protected SqlDataReader ExecuteReader(String commandText)
-        {
-            throw new Exception("Metodo no implementado");
-        }
+
+        //protected SqlDataReader ExecuteReader(String commandText)
+        //{
+        //    throw new Exception("Metodo no implementado");
+        //}
     }
 }
