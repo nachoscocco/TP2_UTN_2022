@@ -11,16 +11,17 @@ namespace UI.Consola
 {
     public class Usuarios
     {
-        private UsuarioLogic _usuarioNegocio;
-
-        public Usuarios(UsuarioLogic usuarioNegocio)
-        {
-            _usuarioNegocio = usuarioNegocio;
-        }
-
+        
         public Usuarios()
         {
-            UsuarioLogic _usuarioNegocio = new UsuarioLogic();
+            UsuarioNegocio = new UsuarioLogic();
+        }
+        
+        private UsuarioLogic _usuarioNegocio;
+        public UsuarioLogic UsuarioNegocio
+        {
+            get{return _usuarioNegocio;}
+            set{_usuarioNegocio = value;}
         }
 
         public void Menu()
@@ -38,23 +39,18 @@ namespace UI.Consola
                 switch (opcion.Key)
                 {
                     case ConsoleKey.D1:
-                        Console.Clear();
                         ListadoGeneral();
                         break;
                     case ConsoleKey.D2:
-                        Console.Clear();
                         Consultar();
                         break;
                     case ConsoleKey.D3:
-                        Console.Clear();
                         Agregar();
                         break;
                     case ConsoleKey.D4:
-                        Console.Clear();
                         Modificar();
                         break;
                     case ConsoleKey.D5:
-                        Console.Clear();
                         Eliminar();
                         break;
                     case ConsoleKey.D6:
@@ -63,14 +59,12 @@ namespace UI.Consola
                         break;
                 }
             }
-
-
         }
 
         public void ListadoGeneral()
         {
             Console.Clear();
-            foreach (Usuario usr in _usuarioNegocio.GetAll())
+            foreach (Usuario usr in UsuarioNegocio.GetAll())
             {
                 MostrarDatos(usr);
             }
@@ -96,7 +90,7 @@ namespace UI.Consola
                 Console.Clear();
                 Console.Write("Ingrese el ID del usuario a modificar: ");
                 int ID = int.Parse(Console.ReadLine());
-                Usuario usuario = _usuarioNegocio.GetOne(ID);
+                Usuario usuario = UsuarioNegocio.GetOne(ID);
                 Console.Write("Ingrese Nombre: ");
                 usuario.Nombre = Console.ReadLine();
                 Console.Write("Ingrese Apellido: ");
@@ -110,7 +104,7 @@ namespace UI.Consola
                 Console.Write("Ingrese Habilitación de Usuario (1-Si/otro-No): ");
                 usuario.Habilitado = (Console.ReadLine() == "1");
                 usuario.State = BusinessEntity.States.Modified;
-                _usuarioNegocio.Save(usuario);
+                UsuarioNegocio.Save(usuario);
             }
             catch (FormatException)
             {
@@ -144,16 +138,37 @@ namespace UI.Consola
             usuario.Clave = Console.ReadLine();
             Console.Write("Ingrese Email: ");
             usuario.Email = Console.ReadLine();
-            Console.Write("Ingrese Habilitación de Usuario (1-31/otro-No): ");
+            Console.Write("Ingrese Habilitación de Usuario (1-Si/otro-No): ");
             usuario.Habilitado = (Console.ReadLine() == "1");
             usuario.State = BusinessEntity.States.New;
-            _usuarioNegocio.Save(usuario); Console.WriteLine();
+            UsuarioNegocio.Save(usuario); Console.WriteLine();
             Console.WriteLine("ID: {0}", usuario.ID);
         }
 
         public void Eliminar()
         {
-
+            try
+            {
+                Console.Clear();
+                Console.Write("Ingrese el ID del usuario a eliminar: ");
+                int ID = int.Parse(Console.ReadLine());
+                UsuarioNegocio.Deleted(ID);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine();
+                Console.WriteLine("La ID ingresada debe ser un número entero");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Presione una tecla para continuar");
+                Console.ReadKey();
+            }
         }
         
         public void Consultar()
@@ -163,7 +178,7 @@ namespace UI.Consola
                 Console.Clear();
                 Console.Write("Ingrese el ID del usuario a consultar: ");
                 int ID = int.Parse(Console.ReadLine());
-                this.MostrarDatos(_usuarioNegocio.GetOne(ID));
+                this.MostrarDatos(UsuarioNegocio.GetOne(ID));
             }
             catch (FormatException)
             {
