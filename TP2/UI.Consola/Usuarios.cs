@@ -20,6 +20,7 @@ namespace UI.Consola
 
         public Usuarios()
         {
+            UsuarioLogic _usuarioNegocio = new UsuarioLogic();
         }
 
         public void Menu()
@@ -75,51 +76,79 @@ namespace UI.Consola
             }
         }
 
-        public void MostrarDatos(Usuario usr) {
-            Console.WriteLine("Usuario: (0)", usr.ID);
-            Console.WriteLine("\tNombre: (0)", usr.Nombre);
-            Console.WriteLine("\t\tapellido: (0)", usr.Apellido);
-            Console.WriteLine(") titNombre de Usuario: (0)", usr.NombreUsuario);
-            Console.WriteLine("\t\tClave: (0)", usr.Clave);
-            Console.WriteLine("\t\tEmail: (0)", usr.Email);
-            Console.WriteLine("\t\tHabilitado: (0)", usr.Habilitado);
+        public void MostrarDatos(Usuario usr)
+        {
+            Console.WriteLine("Usuario: {0}", usr.ID);
+            Console.WriteLine("\t\tNombre: {0}", usr.Nombre);
+            Console.WriteLine("\t\tapellido: {0}", usr.Apellido);
+            Console.WriteLine("\t\tNombre de Usuario: {0}", usr.NombreUsuario);
+            Console.WriteLine("\t\tClave: {0}", usr.Clave);
+            Console.WriteLine("\t\tEmail: {0}", usr.Email);
+            Console.WriteLine("\t\tHabilitado: {0}", usr.Habilitado);
             // \t dentro de un string representa un TAB
             Console.WriteLine();
         }
-
+    
         public void Modificar()
         {
-            
+            try
+            {
+                Console.Clear();
+                Console.Write("Ingrese el ID del usuario a modificar: ");
+                int ID = int.Parse(Console.ReadLine());
+                Usuario usuario = _usuarioNegocio.GetOne(ID);
+                Console.Write("Ingrese Nombre: ");
+                usuario.Nombre = Console.ReadLine();
+                Console.Write("Ingrese Apellido: ");
+                usuario.Apellido = Console.ReadLine();
+                Console.Write("Ingrese Nombre de Usuario: "); 
+                usuario.NombreUsuario = Console.ReadLine();
+                Console.Write("Ingrese Clave: ");
+                usuario.Clave = Console.ReadLine(); 
+                Console.Write("Ingrese Email: ");
+                usuario.Email = Console.ReadLine();
+                Console.Write("Ingrese Habilitación de Usuario (1-Si/otro-No): ");
+                usuario.Habilitado = (Console.ReadLine() == "1");
+                usuario.State = BusinessEntity.States.Modified;
+                _usuarioNegocio.Save(usuario);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine();
+                Console.WriteLine("La ID ingresada debe ser un número entero");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Presione una tecla para continuar");
+                Console.ReadKey();
+            }
         }
 
         public void Agregar()
         {
-            //Usuario usuario = new Usuario();
-            //Console.Clear();
-            //Console.Write("Ingrese Nombre: ");
-            //usuario.Nombre Console.ReadLine(); Console.Write("Ingrese Apellido: ");
+            Usuario usuario = new Usuario();
 
-            //usuario.Apellido Console.ReadLine();
-
-            //Console.Write("Ingrese Nombre de Usuario: "); usuario.NombreUsuario Console.ReadLine();
-
-            //Console.Write("Ingrese Clave: ");
-
-            //usuario.Clave Console.ReadLine():
-
-            //Console.Write("Ingrese Email: ");
-
-            //usuario.EMail = Console.ReadLine();
-
-            //Console.Write("Ingrese Habilitación de Usuario (1-31/otro-No): ");
-
-            //usuario.Habilitado(Console.ReadLine() == "1");
-
-            //usuario.State = Business Entity.States.New;
-
-            //UsuarioNegocio.Save(usuario); Console.WriteLine();
-
-            //Console.WriteLine("ID: (0)", usuario.ID);
+            Console.Clear();
+            Console.Write("Ingrese Nombre: ");
+            usuario.Nombre = Console.ReadLine(); 
+            Console.Write("Ingrese Apellido: ");
+            usuario.Apellido = Console.ReadLine();
+            Console.Write("Ingrese Nombre de Usuario: "); 
+            usuario.NombreUsuario = Console.ReadLine();
+            Console.Write("Ingrese Clave: ");
+            usuario.Clave = Console.ReadLine();
+            Console.Write("Ingrese Email: ");
+            usuario.Email = Console.ReadLine();
+            Console.Write("Ingrese Habilitación de Usuario (1-31/otro-No): ");
+            usuario.Habilitado = (Console.ReadLine() == "1");
+            usuario.State = BusinessEntity.States.New;
+            _usuarioNegocio.Save(usuario); Console.WriteLine();
+            Console.WriteLine("ID: {0}", usuario.ID);
         }
 
         public void Eliminar()
@@ -129,26 +158,28 @@ namespace UI.Consola
         
         public void Consultar()
         {
-            //Console.Clear();
-            //Console.Write("Ingrese el ID del usuario a modificar: ");
-            //int ID = int.Parse(Console.ReadLine());
-            //Usuario usuario UsuarioNegocio.GetOne(ID);
-            //Console.Write("Ingrese Nombre: ");
-            //usuario.Nombre Console.ReadLine();
-            //Console.Write("Ingrese Apellido: ");
-            //usuario.Apellido Console.ReadLine();
-            //Console.Write("Ingrese Nombre de Usuario: "); usuario.NombreUsuario Console.ReadLine();
-            //Console.Write("Ingrese Clave: ");
-            //usuario.Clave Console.ReadLine(); Console.Write("Ingrese Email: ");
-            //usuario.EMail Console.ReadLine();
-
-            //Console.Write("Ingrese Habilitación de Usuario (1-Si/otro-No): ");
-
-            //usuario.Habilitado = (Console.ReadLine() == "1");
-
-            //usuario.State BusinessEntity.States.Modified;
-
-            //UsuarioNegocio.Save(usuario);
+            try
+            {
+                Console.Clear();
+                Console.Write("Ingrese el ID del usuario a consultar: ");
+                int ID = int.Parse(Console.ReadLine());
+                this.MostrarDatos(_usuarioNegocio.GetOne(ID));
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine();
+                Console.WriteLine("La ID ingresada debe ser un número entero");
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine();
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                Console.WriteLine("Presione una tecla para continuar");
+                Console.ReadKey();
+            }
         }  
     }
 }

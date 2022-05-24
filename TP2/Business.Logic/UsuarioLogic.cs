@@ -15,6 +15,10 @@ namespace Business.Logic
         {
             _usuarioData = usuarioData;
         }
+        public UsuarioLogic()
+        {
+            UsuarioAdapter _usuarioData = new UsuarioAdapter();
+        }
 
         public Usuario GetOne(int id)
         {
