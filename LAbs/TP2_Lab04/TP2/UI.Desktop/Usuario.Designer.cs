@@ -103,9 +103,11 @@ namespace UI.Desktop
             this.tlUsuario.SetColumnSpan(this.dgvUsuario, 2);
             this.dgvUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvUsuario.Location = new System.Drawing.Point(3, 3);
+            this.dgvUsuario.MultiSelect = false;
             this.dgvUsuario.Name = "dgvUsuario";
             this.dgvUsuario.ReadOnly = true;
             this.dgvUsuario.RowTemplate.Height = 25;
+            this.dgvUsuario.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsuario.Size = new System.Drawing.Size(794, 390);
             this.dgvUsuario.TabIndex = 0;
             // 
@@ -181,7 +183,7 @@ namespace UI.Desktop
             this.tsbEliminar});
             this.tsUsuario.Location = new System.Drawing.Point(3, 0);
             this.tsUsuario.Name = "tsUsuario";
-            this.tsUsuario.Size = new System.Drawing.Size(81, 25);
+            this.tsUsuario.Size = new System.Drawing.Size(112, 25);
             this.tsUsuario.TabIndex = 0;
             // 
             // tsbNuevo
@@ -193,6 +195,7 @@ namespace UI.Desktop
             this.tsbNuevo.Size = new System.Drawing.Size(23, 22);
             this.tsbNuevo.Text = "toolStripButton1";
             this.tsbNuevo.ToolTipText = "Nuevo";
+            this.tsbNuevo.Click += new System.EventHandler(this.tsbNuevo_Click);
             // 
             // tsbEditar
             // 
@@ -203,6 +206,7 @@ namespace UI.Desktop
             this.tsbEditar.Size = new System.Drawing.Size(23, 22);
             this.tsbEditar.Text = "toolStripButton1";
             this.tsbEditar.ToolTipText = "Editar";
+            this.tsbEditar.Click += new System.EventHandler(this.tsbEditar_Click);
             // 
             // tsbEliminar
             // 
@@ -213,6 +217,7 @@ namespace UI.Desktop
             this.tsbEliminar.Size = new System.Drawing.Size(23, 22);
             this.tsbEliminar.Text = "toolStripButton1";
             this.tsbEliminar.ToolTipText = "Eliminar";
+            this.tsbEliminar.Click += new System.EventHandler(this.tsbEliminar_Click);
             // 
             // Usuario
             // 
