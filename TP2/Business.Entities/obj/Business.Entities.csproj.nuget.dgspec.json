@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {}
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
         "projectName": "Business.Entities",
-        "projectPath": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
-        "packagesPath": "C:\\Users\\Nacho PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Entities\\obj\\",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nacho PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
