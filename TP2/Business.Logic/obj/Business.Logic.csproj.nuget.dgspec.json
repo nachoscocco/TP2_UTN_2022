@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {}
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
-        "projectName": "Business.Logic",
-        "projectPath": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
-        "packagesPath": "C:\\Users\\Nacho PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nacho PC\\Documents\\Facultad 2022\\.NET\\TP2_UTN_2022\\TP2\\Business.Logic\\obj\\",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "projectName": "Business.Entities",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nacho PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,150 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "projectName": "Business.Logic",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
+              },
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
+        "projectName": "Data.Database",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

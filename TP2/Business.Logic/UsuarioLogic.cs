@@ -23,7 +23,7 @@ namespace Business.Logic
 
         public Usuario GetOne(int id)
         {
-            return UsuarioData.GetOne(id);
+            return UsuarioData.GetOneId(id);
         }
 
         public List<Usuario> GetAll()

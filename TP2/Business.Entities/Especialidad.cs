@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public enum Especialidad
+    class Especialidad
     {
-        Electrica,
-        Sistemas,
-        Mecanica,
-        Quimica,
-        Civil
+        public int IdEspecialidad { get; set; }
+        public int NombreEspecialidad { get; set; }
+        public bool Alta { get; set; } // ¿Baja logica?
+        
+        //1 - Electrica,
+        //2 - Sistemas,
+        //3 - Mecanica,
+        //4 - Quimica,
+        //5 - Civil
     }
+    //public enum Especialidad
 }
