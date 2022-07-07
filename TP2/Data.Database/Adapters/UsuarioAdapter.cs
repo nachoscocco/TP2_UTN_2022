@@ -55,8 +55,8 @@ namespace Data.Database
 
                     //ahora copiamos los datos de la fila al objeto
 
-                    usr.ID = (int)drUsuarios["id"];
-                    usr.NombreUsuario = (string)drUsuarios["usuario"];
+                    usr.ID = (int)drUsuarios["id_usuario"];
+                    usr.NombreUsuario = (string)drUsuarios["nombre_usuario"];
                     usr.Clave = (string)drUsuarios["clave"];
                     usr.Habilitado = (bool)drUsuarios["habilitado"];
                     usr.Nombre = (string)drUsuarios["nombre"];

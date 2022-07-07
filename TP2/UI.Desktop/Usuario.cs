@@ -22,6 +22,7 @@ namespace UI.Desktop
         private void Usuarios_Load(object sender, EventArgs e)
         {
             Listar();
+            dgvUsuario.AutoGenerateColumns = false;
         }
 
         public void Listar()
