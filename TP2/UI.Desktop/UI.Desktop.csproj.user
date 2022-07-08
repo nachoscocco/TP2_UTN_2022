@@ -16,5 +16,8 @@
     <Compile Update="DesktopForms\UsuarioDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

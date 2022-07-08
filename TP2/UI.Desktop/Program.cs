@@ -17,7 +17,7 @@ namespace UI.Desktop
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ABMsForms.Conocimiento());
+            Application.Run(new Main());
         }
     }
 }
