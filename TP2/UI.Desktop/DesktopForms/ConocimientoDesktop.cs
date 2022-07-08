@@ -42,9 +42,9 @@ namespace UI.Desktop.DesktopForms
             }
             public void SetModeValue(ModoForm modo)
             {
-                if (modo == ModoForm.Consulta) this.btnAceptar.Text = "Aceptar";
-                else if (modo == ModoForm.Alta || modo == ModoForm.Modificacion) this.btnAceptar.Text = "Guardar";
-                else if (modo == ModoForm.Baja) this.btnAceptar.Text = "Eliminar";
+            if (modo == ModoForm.Consulta) this.btnAceptar.Text = "Aceptar";
+            else if (modo == ModoForm.Alta || modo == ModoForm.Modificacion) this.btnAceptar.Text = "Guardar";
+            else if (modo == ModoForm.Baja) { this.btnAceptar.Text = "Eliminar"; this.txtNombre.ReadOnly = true; this.chkAlta.Enabled = false; }
             }
 
         public override void MapearDeDatos()
