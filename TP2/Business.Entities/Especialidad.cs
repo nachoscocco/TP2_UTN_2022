@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Business.Entities.BusinessEntity;
 
 namespace Business.Entities
 {
-    class Especialidad
+    public class Especialidad
     {
         public int IdEspecialidad { get; set; }
-        public int NombreEspecialidad { get; set; }
+        public string NombreEspecialidad { get; set; }
         public bool Alta { get; set; } // ¿Baja logica?
-        
+        public States State { get; set; }
+
         //1 - Electrica,
         //2 - Sistemas,
         //3 - Mecanica,
