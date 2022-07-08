@@ -238,7 +238,7 @@ namespace Data.Database.Adapters
                     "values(@nombre,@alta)" +
                     "select @@identity ", sqlConn);
 
-                cmdSave.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = Conocimiento.Nombre;
+                cmdSave.Parameters.Add("@nombre", SqlDbType.VarChar, 20).Value = Conocimiento.Nombre;
                 
                 cmdSave.Parameters.Add("@alta", SqlDbType.Bit).Value = Conocimiento.Alta;
                 
@@ -263,11 +263,11 @@ namespace Data.Database.Adapters
             try
             {
                 OpenConnection();
-                SqlCommand cmdSave = new SqlCommand("UPDATE conocimientos SET nombre = @nombre, alta = @alta" +                
+                SqlCommand cmdSave = new SqlCommand("UPDATE conocimientos SET nombre = @nombre, alta = @alta " +                
                     "WHERE id_conocimiento = @id ", sqlConn);
 
                 cmdSave.Parameters.Add("@id", SqlDbType.Int).Value = Conocimiento.IdConocimiento;
-                cmdSave.Parameters.Add("@nombre", SqlDbType.VarChar, 50).Value = Conocimiento.Nombre;
+                cmdSave.Parameters.Add("@nombre", SqlDbType.VarChar, 20).Value = Conocimiento.Nombre;
                 cmdSave.Parameters.Add("@alta", SqlDbType.Bit).Value = Conocimiento.Alta;
                
                 cmdSave.ExecuteNonQuery();
