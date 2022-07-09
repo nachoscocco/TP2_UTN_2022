@@ -41,7 +41,8 @@ namespace UI.Desktop
 
         private void btnEspecialidad_Click(object sender, EventArgs e)
         {
-
+            Especialidad formEspecialidad = new Especialidad();
+            formEspecialidad.ShowDialog();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)

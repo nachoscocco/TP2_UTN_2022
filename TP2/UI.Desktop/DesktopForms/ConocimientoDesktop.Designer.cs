@@ -46,7 +46,7 @@ namespace UI.Desktop.DesktopForms
             this.tlConocimiento.ColumnCount = 3;
             this.tlConocimiento.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.53488F));
             this.tlConocimiento.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85.46512F));
-            this.tlConocimiento.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+            this.tlConocimiento.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 78F));
             this.tlConocimiento.Controls.Add(this.lbID, 0, 0);
             this.tlConocimiento.Controls.Add(this.lbNombre, 0, 1);
             this.tlConocimiento.Controls.Add(this.lbAlta, 0, 2);
@@ -99,7 +99,7 @@ namespace UI.Desktop.DesktopForms
             // btnAceptar
             // 
             this.btnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAceptar.Location = new System.Drawing.Point(416, 97);
+            this.btnAceptar.Location = new System.Drawing.Point(412, 97);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 22);
             this.btnAceptar.TabIndex = 3;
@@ -109,7 +109,7 @@ namespace UI.Desktop.DesktopForms
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(497, 97);
+            this.btnSalir.Location = new System.Drawing.Point(493, 97);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(58, 22);
             this.btnSalir.TabIndex = 4;
@@ -120,7 +120,7 @@ namespace UI.Desktop.DesktopForms
             // txtID
             // 
             this.txtID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.txtID.Location = new System.Drawing.Point(212, 3);
+            this.txtID.Location = new System.Drawing.Point(210, 3);
             this.txtID.Name = "txtID";
             this.txtID.ReadOnly = true;
             this.txtID.Size = new System.Drawing.Size(140, 23);
@@ -129,7 +129,7 @@ namespace UI.Desktop.DesktopForms
             // txtNombre
             // 
             this.txtNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.txtNombre.Location = new System.Drawing.Point(212, 32);
+            this.txtNombre.Location = new System.Drawing.Point(210, 32);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(140, 23);
             this.txtNombre.TabIndex = 6;
@@ -138,7 +138,7 @@ namespace UI.Desktop.DesktopForms
             // 
             this.chkAlta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.chkAlta.AutoSize = true;
-            this.chkAlta.Location = new System.Drawing.Point(242, 64);
+            this.chkAlta.Location = new System.Drawing.Point(240, 64);
             this.chkAlta.Name = "chkAlta";
             this.chkAlta.Size = new System.Drawing.Size(81, 27);
             this.chkAlta.TabIndex = 7;

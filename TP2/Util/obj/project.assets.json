@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Gamba\\.nuget\\packages\\": {}
+    "C:\\Users\\Tomas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
+      "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
       "projectName": "Util",
-      "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
-      "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\obj\\",
+      "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
+      "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+      "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

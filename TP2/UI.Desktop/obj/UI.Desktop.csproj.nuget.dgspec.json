@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj": {}
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
         "projectName": "Business.Entities",
-        "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
-        "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\obj\\",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
         "projectName": "Business.Logic",
-        "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
-        "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\obj\\",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,11 +82,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
               },
-              "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
-                "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj"
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj"
               }
             }
           }
@@ -115,21 +115,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
         "projectName": "Data.Database",
-        "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
-        "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Data.Database\\obj\\",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\Data.Database.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Data.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,8 +143,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
               }
             }
           }
@@ -197,21 +197,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj": {
+    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj",
+        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj",
         "projectName": "UI.Desktop",
-        "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj",
-        "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\UI.Desktop\\obj\\",
+        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\UI.Desktop\\UI.Desktop.csproj",
+        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
+        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\UI.Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -225,11 +225,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Entities\\Business.Entities.csproj"
               },
-              "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
-                "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj"
+              "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj": {
+                "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Business.Logic\\Business.Logic.csproj"
               }
             }
           }
@@ -261,7 +261,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
