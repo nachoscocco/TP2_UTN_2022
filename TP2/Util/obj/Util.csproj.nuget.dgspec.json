@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj": {}
+    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj": {}
   },
   "projects": {
-    "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj": {
+    "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
+        "projectUniqueName": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
         "projectName": "Util",
-        "projectPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
-        "packagesPath": "C:\\Users\\Tomas\\.nuget\\packages\\",
-        "outputPath": "D:\\Facultad\\3er ano\\punto net\\TP2\\TP2_UTN_2022\\TP2\\Util\\obj\\",
+        "projectPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\Util.csproj",
+        "packagesPath": "C:\\Users\\Gamba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamba\\source\\repos\\TP2_UTN_2022\\TP2\\Util\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
