@@ -30,7 +30,7 @@ namespace UI.Desktop
 
         private void btnBusquedas_Click(object sender, EventArgs e)
         {
-
+            new Busqueda().ShowDialog();
         }
 
         private void btnConocimientos_Click(object sender, EventArgs e)
