@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static Business.Entities.BusinessEntity;
+
 
 namespace Business.Entities
 {
-    class Busqueda
+    public class Busqueda
     {
         public int NroBusqueda { get; set; }
-        public bool Tipo { get; set; } // Fulltime o parttime
-        public string nombre { get; set; }
+        public bool Tipo { get; set; } 
+        public string Nombre { get; set; }
         public string DetalleAmpliado { get; set; }
         public DateTime FechaDesde { get; set; }
         public DateTime FechaHasta { get; set; }
+        public bool Habilitado { get; set; }
+
+        public States State { get; set; }
     }
 }
