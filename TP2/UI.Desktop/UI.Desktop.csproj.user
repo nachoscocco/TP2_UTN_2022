@@ -4,29 +4,25 @@
     <Compile Update="ABMsForms\Conocimiento.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ABMsForms\Especialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ABMsForms\Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ApplicationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Update="Busqueda.cs">
+    <Compile Update="ABMsForms\Busqueda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="BusquedaDesktop.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Usuario.cs">
-=======
-    <Compile Update="ABMsForms\Especialidad.cs">
->>>>>>> master
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="DesktopForms\EspecialidadDesktop.cs">
+    <Compile Update="DesktopForms\BusquedaDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="DesktopForms\ConocimientoDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DesktopForms\EspecialidadDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="DesktopForms\UsuarioDesktop.cs">
