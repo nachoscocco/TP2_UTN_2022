@@ -17,12 +17,13 @@ namespace UI.Desktop
         public Usuario()
         {
             InitializeComponent();
+            this.dgvUsuario.AutoGenerateColumns = false;
         }
 
         private void Usuarios_Load(object sender, EventArgs e)
         {
             Listar();
-            dgvUsuario.AutoGenerateColumns = false;
+            
         }
 
         public void Listar()
