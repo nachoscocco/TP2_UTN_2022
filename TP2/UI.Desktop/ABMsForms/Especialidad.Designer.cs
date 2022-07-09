@@ -55,11 +55,11 @@ namespace UI.Desktop
             // tcEspecialidades.ContentPanel
             // 
             this.tcEspecialidades.ContentPanel.Controls.Add(this.tlEntidades);
-            this.tcEspecialidades.ContentPanel.Size = new System.Drawing.Size(429, 281);
+            this.tcEspecialidades.ContentPanel.Size = new System.Drawing.Size(250, 240);
             this.tcEspecialidades.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcEspecialidades.Location = new System.Drawing.Point(0, 0);
             this.tcEspecialidades.Name = "tcEspecialidades";
-            this.tcEspecialidades.Size = new System.Drawing.Size(429, 306);
+            this.tcEspecialidades.Size = new System.Drawing.Size(250, 265);
             this.tcEspecialidades.TabIndex = 0;
             this.tcEspecialidades.Text = "toolStripContainer1";
             // 
@@ -81,7 +81,7 @@ namespace UI.Desktop
             this.tlEntidades.RowCount = 2;
             this.tlEntidades.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlEntidades.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tlEntidades.Size = new System.Drawing.Size(429, 281);
+            this.tlEntidades.Size = new System.Drawing.Size(250, 240);
             this.tlEntidades.TabIndex = 0;
             // 
             // dgvEspecialidades
@@ -100,7 +100,7 @@ namespace UI.Desktop
             this.dgvEspecialidades.ReadOnly = true;
             this.dgvEspecialidades.RowTemplate.Height = 25;
             this.dgvEspecialidades.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEspecialidades.Size = new System.Drawing.Size(423, 246);
+            this.dgvEspecialidades.Size = new System.Drawing.Size(244, 205);
             this.dgvEspecialidades.TabIndex = 0;
             // 
             // IdEspecialidad
@@ -120,7 +120,7 @@ namespace UI.Desktop
             // btnActualizar
             // 
             this.btnActualizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnActualizar.Location = new System.Drawing.Point(270, 255);
+            this.btnActualizar.Location = new System.Drawing.Point(91, 214);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(75, 23);
             this.btnActualizar.TabIndex = 1;
@@ -130,7 +130,7 @@ namespace UI.Desktop
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(351, 255);
+            this.btnSalir.Location = new System.Drawing.Point(172, 214);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 2;
@@ -147,7 +147,7 @@ namespace UI.Desktop
             this.tsbEliminar});
             this.tsEntidades.Location = new System.Drawing.Point(3, 0);
             this.tsEntidades.Name = "tsEntidades";
-            this.tsEntidades.Size = new System.Drawing.Size(112, 25);
+            this.tsEntidades.Size = new System.Drawing.Size(81, 25);
             this.tsEntidades.TabIndex = 0;
             // 
             // tsbNuevo
@@ -187,7 +187,7 @@ namespace UI.Desktop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 306);
+            this.ClientSize = new System.Drawing.Size(250, 265);
             this.Controls.Add(this.tcEspecialidades);
             this.Name = "Especialidad";
             this.Text = "Especialidad";

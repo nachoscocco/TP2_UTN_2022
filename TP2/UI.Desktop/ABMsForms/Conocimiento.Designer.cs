@@ -56,11 +56,11 @@ namespace UI.Desktop.ABMsForms
             // tcConocimiento.ContentPanel
             // 
             this.tcConocimiento.ContentPanel.Controls.Add(this.tableLayoutPanel1);
-            this.tcConocimiento.ContentPanel.Size = new System.Drawing.Size(349, 502);
+            this.tcConocimiento.ContentPanel.Size = new System.Drawing.Size(349, 331);
             this.tcConocimiento.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tcConocimiento.Location = new System.Drawing.Point(0, 0);
             this.tcConocimiento.Name = "tcConocimiento";
-            this.tcConocimiento.Size = new System.Drawing.Size(349, 527);
+            this.tcConocimiento.Size = new System.Drawing.Size(349, 356);
             this.tcConocimiento.TabIndex = 0;
             this.tcConocimiento.Text = "toolStripContainer1";
             // 
@@ -80,9 +80,9 @@ namespace UI.Desktop.ABMsForms
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 91.96676F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.033241F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(349, 502);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(349, 331);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // dgvConocimiento
@@ -102,7 +102,7 @@ namespace UI.Desktop.ABMsForms
             this.dgvConocimiento.ReadOnly = true;
             this.dgvConocimiento.RowTemplate.Height = 25;
             this.dgvConocimiento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvConocimiento.Size = new System.Drawing.Size(343, 455);
+            this.dgvConocimiento.Size = new System.Drawing.Size(343, 291);
             this.dgvConocimiento.TabIndex = 0;
             // 
             // id
@@ -129,7 +129,7 @@ namespace UI.Desktop.ABMsForms
             // btnAceptar
             // 
             this.btnAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAceptar.Location = new System.Drawing.Point(190, 464);
+            this.btnAceptar.Location = new System.Drawing.Point(190, 300);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 1;
@@ -139,7 +139,7 @@ namespace UI.Desktop.ABMsForms
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(271, 464);
+            this.btnSalir.Location = new System.Drawing.Point(271, 300);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 23);
             this.btnSalir.TabIndex = 2;
@@ -156,7 +156,7 @@ namespace UI.Desktop.ABMsForms
             this.tsEliminar});
             this.tsConocimiento.Location = new System.Drawing.Point(9, 0);
             this.tsConocimiento.Name = "tsConocimiento";
-            this.tsConocimiento.Size = new System.Drawing.Size(112, 25);
+            this.tsConocimiento.Size = new System.Drawing.Size(81, 25);
             this.tsConocimiento.TabIndex = 0;
             // 
             // tsNuevo
@@ -193,7 +193,7 @@ namespace UI.Desktop.ABMsForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 527);
+            this.ClientSize = new System.Drawing.Size(349, 356);
             this.Controls.Add(this.tcConocimiento);
             this.Name = "Conocimiento";
             this.Text = "Conocimientos";
