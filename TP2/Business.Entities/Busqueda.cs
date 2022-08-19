@@ -13,7 +13,6 @@ namespace Business.Entities
         public DateTime FechaDesde { get; set; }
         public DateTime FechaHasta { get; set; }
         public bool Habilitado { get; set; }
-
         public States State { get; set; }
     }
 }
